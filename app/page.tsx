@@ -29,7 +29,7 @@ export default function EggDetector() {
 
     try {
       // เปลี่ยน URL_API_BACKEND เป็น URL ของ Render หรือ Localhost:8000
-      const res = await fetch('http://localhost:8000/predict', { 
+      const res = await fetch('https://Chalermchai2294-Ai.hf.space/predict', { 
         method: 'POST',
         body: formData,
       });
